@@ -5,7 +5,6 @@ import os
 
 def construct() -> None:
     """Check the environment."""
-
     venv = sys.base_prefix != sys.prefix
     name_env = os.path.basename(sys.prefix)
     path = sys.executable
